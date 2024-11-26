@@ -1,0 +1,64 @@
+/* hero.module.css */
+.hero-container {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 60px);
+    padding-top: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+  }
+  
+  .hero-image {
+    position: relative;
+    width: 12rem;
+    height: 12rem;
+    margin-bottom: 1.5rem;
+    border-radius: 50%;
+  }
+  
+  .hero-title {
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .hero-title p:first-child {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+  }
+  
+  .hero-title p:last-child {
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+  
+  @media screen and (min-width: 640px) {
+    .hero-image {
+      width: 16rem;
+      height: 16rem;
+    }
+  
+    .hero-title p:first-child {
+      font-size: 3rem;
+    }
+  
+    .hero-title p:last-child {
+      font-size: 5rem;
+    }
+  }
+  
